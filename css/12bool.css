@@ -12,9 +12,11 @@
 .row {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 [class*="col-"] {
+  display: flex;
   flex: 0 0 auto;
 }
 
